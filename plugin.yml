@@ -4,15 +4,15 @@ version: 1.0.0
 api: [1.0.0]
 load: STARTUP
 author: FellOp
-description: Плагин на установку ModPE на сервер.
-website: http://vk.com/fellop
+description: Plugin for making phar from js.
+website: http://githib.com/FellOp/JSConverter
 
 commands:
   description: /conv
-  usage: "Введите: /conv <название скрипта>"
+  usage: "Usage: /conv <script name>"
   permission: fellop.conv
 
 permissions:
  fellop.conv:
-  description: "Сконвертировать скрипт в плагин"
+  description: "Makr phar from js"
   default: op
