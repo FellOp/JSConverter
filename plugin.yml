@@ -1,0 +1,18 @@
+name: JSConverter
+main: FellOp\JSConverter
+version: 1.0.0
+api: [1.0.0]
+load: STARTUP
+author: FellOp
+description: Плагин на установку ModPE на сервер.
+website: http://vk.com/fellop
+
+commands:
+  description: /conv
+  usage: "Введите: /conv <название скрипта>"
+  permission: fellop.conv
+
+permissions:
+ fellop.conv:
+  description: "Сконвертировать скрипт в плагин"
+  default: op
