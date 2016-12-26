@@ -14,5 +14,5 @@ commands:
 
 permissions:
  fellop.conv:
-  description: "Makr phar from js"
+  description: "Make phar from js"
   default: op
